@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /*Valor padrão é de 16px no root*/
+}
+
+body {
+  height: 100vh;
+  color: #fff;
+}
+
+body, input, button, textarea {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#page-landing {
+  height: 100vh;
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+  text-align: center;
+}
